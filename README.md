@@ -5,6 +5,7 @@ Plataforma EAD para gerenciar múltiplos cursos estruturados em módulos e aulas
 ## Estrutura de Arquivos
 
 Projeto7/
+
 ├── index.html       # Interface principal  
 ├── style.css        # Estilos  
 ├── script.ts        # Código TypeScript  
