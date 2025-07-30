@@ -32,7 +32,7 @@ cd Projeto7-GestaoCursosOnline
 tsc script.ts
 ```
 
-4. Abra o arquivo `index.html`
+3. Abra o arquivo `index.html`
 
 ## Como Usar
 
