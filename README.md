@@ -20,12 +20,19 @@ Projeto7/
 ## Instalação
 
 1. Clone o repositório:
-
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
 git clone https://github.com/seu-usuario/Projeto7-GestaoCursosOnline.git
 cd Projeto7-GestaoCursosOnline
+```
 
 2. Compile o TypeScript:
-3. Abra o arquivo `index.html`
+```bash
+tsc script.ts
+```
+
+4. Abra o arquivo `index.html`
 
 ## Como Usar
 
