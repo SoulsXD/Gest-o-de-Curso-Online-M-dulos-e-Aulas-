@@ -21,10 +21,8 @@ Projeto7/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-git clone https://github.com/seu-usuario/Projeto7-GestaoCursosOnline.git
-cd Projeto7-GestaoCursosOnline
+git clone https://github.com/SoulsXD/Projeto7.git
+cd projeto7
 ```
 
 2. Compile o TypeScript:
