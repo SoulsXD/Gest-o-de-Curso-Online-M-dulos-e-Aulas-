@@ -2,99 +2,65 @@
 
 Plataforma EAD para gerenciar múltiplos cursos estruturados em módulos e aulas.
 
-Projeto7-GestaoCursosOnline/
-├── index.html       # Interface principal
+## Estrutura de Arquivos
 
-├── style.css        # Estilos CSS
-
-├── script.ts        # Lógica TypeScript (compile para script.js)
-
-└── README.md        # Documentação
+Projeto7/
+├── index.html       # Interface principal  
+├── style.css        # Estilos  
+├── script.ts        # Código TypeScript  
+└── README.md        # Instruções de uso
 
 ## Tecnologias
 
-- **TypeScript**: modelagem de árvore e manipulação de DOM  
-- **HTML5**: estrutura da interface  
-- **CSS3**: estilos responsivos e hierárquicos
+- TypeScript
+- HTML5
+- CSS3
 
-## 🔧 Instalação e Uso
+## Instalação
 
-1. **Clone o repositório**
+1. Clone o repositório:
 
-   ```bash
-   git clone 
-   cd
-2. **Compile o TypeScript
-3. **abra o index.html
-4. **Interaja com a interface
+git clone https://github.com/seu-usuario/Projeto7-GestaoCursosOnline.git
+cd Projeto7-GestaoCursosOnline
 
+2. Compile o TypeScript:
+3. Abra o arquivo `index.html`
 
-##Funcionalidades
+## Como Usar
 
-Inserção dinâmica de nós: cursos, módulos e aulas
+1. Escolha o tipo de nó: Curso, Módulo ou Aula
+2. Insira o título
+3. Selecione o nó pai
+4. Clique em "Adicionar"
+5. Para editar, clique no botão "✏️"
+6. Para remover, clique no botão "❌"
+7. Para mover para cima ou para baixo, use "⬆️" ou "⬇️"
+8. Clique em "Exportar HTML" para gerar o código da hierarquia
 
-Validação de hierarquia:
+## Funcionalidades
 
-   Cursos apenas no nível raiz
+- Adição de cursos, módulos e aulas
+- Validação da hierarquia:
+- Cursos só no nível raiz
+- Módulos só dentro de cursos
+- Aulas só dentro de módulos
+- Títulos únicos por tipo dentro do mesmo pai
+- Edição, remoção e reordenação de nós
+- Exportação em HTML da estrutura hierárquica
 
-   Módulos apenas dentro de cursos
+## Exemplo de Uso
 
-   Aulas apenas dentro de módulos
+1. Criar um curso:
+- Título: TSI
+- Tipo: Curso
+- Pai: Cursos
 
-Títulos únicos por nível (permite aulas com mesmo nome em módulos diferentes)
+2. Criar um módulo:
+- Título: Módulo 1
+- Tipo: Módulo
+- Pai: TSI
 
-  Edição inline: altere o nome pressionando ✏️
-
-   Remoção: delete nós com ❌
-
-   Reordenação: mova nós para cima ou para baixo com ⬆️/⬇️
-
-  Visualização gráfica via listas aninhadas, indentação e linhas de conexão
-
-   Exportação: obtenha código HTML hierárquico para reutilização
-
-Uso
-
-Selecione o tipo de nó: Curso, Módulo ou Aula.
-
-Insira o título.
-
-Escolha o nó pai no menu.
-
-Clique em "Adicionar" para inserir na árvore.
-
-Para editar, remover ou reordenar, use os botões ao lado de cada item.
-
-Clique em "Exportar HTML" para obter o código hierárquico.
-
-Funcionalidades
-
-Inserção de cursos, módulos e aulas.
-
-Validação de hierarquia: cursos na raiz, módulos em cursos, aulas em módulos.
-
-Títulos únicos por nível.
-
-Edição, remoção e reordenação de nós.
-
-Exportação da estrutura em HTML.
-
-Exemplos
-
-Criar curso "TSI"
-
-Adicionar módulo "Módulo 1" em "TSI"
-
-Adicionar aula "Aula 1" em "Módulo 1"
-
-Exportar código HTML
-
-Próximos Passos
-
-Salvar dados em LocalStorage ou backend.
-
-Implementar drag & drop.
-
-Adicionar busca e filtros.
-
-Criar testes automatizados.
+3. Criar uma aula:
+- Título: Aula 1
+- Tipo: Aula
+- Pai: Módulo 1
