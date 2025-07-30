@@ -1,8 +1,8 @@
-# # Projeto: Gestão de Cursos Online
+# Projeto: Gestão de Cursos Online
 
-Plataforma EAD para gerenciar múltiplos cursos, cada um estruturado em módulos e aulas.
+Plataforma EAD para gerenciar múltiplos cursos estruturados em módulos e aulas.
 
----
+## Estrutura de Arquivos
 
 ## Estrutura de Arquivos
 
