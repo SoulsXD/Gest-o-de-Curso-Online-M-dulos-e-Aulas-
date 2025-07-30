@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gestão de Cursos Online</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Gestão de Cursos Online</h1>
+
+    <section class="controls">
+      <input type="text" id="node-title" placeholder="Título do curso/módulo/aula" />
+      <select id="node-type">
+        <option value="course">Curso</option>
+        <option value="module">Módulo</option>
+        <option value="lesson">Aula</option>
+      </select>
+      <select id="parent-select">
+        <option value="">(Selecione o pai)</option>
+      </select>
+      <button id="add-node">Adicionar</button>
+      <button id="export-html">Exportar HTML</button>
+    </section>
+
+    <section class="tree-view">
+      <h2>Estrutura</h2>
+      <ul id="course-tree"></ul>
+    </section>
+
+    <section class="output-html">
+      <h2>HTML Exportado</h2>
+      <textarea id="exported-code" rows="10" readonly></textarea>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
