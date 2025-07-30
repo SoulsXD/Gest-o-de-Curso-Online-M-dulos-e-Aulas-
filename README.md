@@ -1,4 +1,4 @@
-# Projeto: Gestão de Cursos Online
+# Projeto 7: Gestão de Cursos Online
 
 Plataforma EAD para gerenciar múltiplos cursos estruturados em módulos e aulas.
 
