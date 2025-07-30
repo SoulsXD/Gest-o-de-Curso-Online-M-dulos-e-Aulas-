@@ -2,15 +2,11 @@
 
 Plataforma EAD para gerenciar múltiplos cursos estruturados em módulos e aulas.
 
-## Estrutura de Arquivos
-
-## Estrutura de Arquivos
-
-/
-├── index.html # Interface principal
-├── style.css # Estilos CSS
-├── script.ts # Lógica TypeScript
-└── README.md # Guia de uso
+Projeto7-GestaoCursosOnline/
+├── index.html       # Interface principal
+├── style.css        # Estilos CSS
+├── script.ts        # Lógica TypeScript (compile para script.js)
+└── README.md        # Documentação
 
 ## Tecnologias
 
